@@ -1,13 +1,19 @@
 # Satellite Image Segmentation for Road Extraction
 
-albumentations==1.0.3
-opencv-python==4.5.3.56
-numpy==1.21.2
-pandas==1.3.3
-segmentation-models-pytorch==0.2.0
-torch==1.9.0
-torchvision==0.10.0
-tqdm==4.62.3
+## Libraries Used
+
+- ![OpenCV](https://img.shields.io/badge/OpenCV-4.5.3.56-blue.svg): OpenCV is used for image preprocessing, loading, and saving operations.
+- ![NumPy](https://img.shields.io/badge/NumPy-1.21.2-blue.svg): NumPy is used for numerical operations and array manipulation.
+- ![Pandas](https://img.shields.io/badge/Pandas-1.3.3-blue.svg): Pandas is used for data manipulation and analysis, particularly for handling metadata and CSV files.
+- ![Segmentation Models PyTorch](https://img.shields.io/badge/Segmentation_Models_PyTorch-0.2.0-blue.svg): Segmentation Models PyTorch provides pre-trained segmentation models and utilities for deep learning-based segmentation tasks.
+- ![Torch](https://img.shields.io/badge/Torch-1.9.0-blue.svg): PyTorch is used as the deep learning framework for building and training segmentation models.
+- ![Torchvision](https://img.shields.io/badge/Torchvision-0.10.0-blue.svg): Torchvision provides datasets, transforms, and pre-trained models for computer vision tasks in PyTorch.
+- ![Albumentations](https://img.shields.io/badge/Albumentations-1.0.3-blue.svg): Albumentations is used for image augmentation, including geometric and color transformations.
+- ![TQDM](https://img.shields.io/badge/TQDM-4.62.3-blue.svg): TQDM is used for displaying progress bars during training and inference processes.
+- ![GDAL](https://img.shields.io/badge/GDAL-3.3.3-blue.svg): GDAL (Geospatial Data Abstraction Library) is used for reading and writing geospatial data formats, particularly for handling satellite imagery.
+- ![Seaborn](https://img.shields.io/badge/Seaborn-0.11.2-blue.svg): Seaborn is used for statistical data visualization, particularly for creating informative and attractive visualizations.
+- ![Matplotlib](https://img.shields.io/badge/Matplotlib-3.4.3-blue.svg): Matplotlib is used for creating static, interactive, and animated visualizations in Python.
+
 
 This repository contains code for a satellite image segmentation project aimed at road extraction using deep learning techniques. The project involves training a segmentation model on satellite imagery data and making predictions on new satellite images to identify road areas.
 
