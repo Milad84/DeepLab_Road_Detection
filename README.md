@@ -10,12 +10,6 @@ This repository contains code for a satellite image segmentation project (https:
 
 Satellite image segmentation is a computer vision task that involves partitioning an image into multiple segments or regions to simplify its representation. In this project, we focus on segmenting satellite images to identify road areas, which is crucial for various applications such as urban planning, transportation management, and infrastructure development.
 
-## Project Structure
-
-The repository is structured as follows:
-
-- **`data/`**: Contains the metadata, dataset splits, and other data-related files.
-- **`models/`**: Stores trained segmentation models and related files.
 
 ## Getting Started
 
