@@ -20,7 +20,7 @@ Satellite image segmentation is a computer vision task that involves partitionin
    ```bash
    git clone https://github.com/your-username/DeepLab_Road_Detection.git
 
-2. Tp train the model you also need to download the folder containing the data named "DeepGlobe Road Extraction Dataset". You can find the folder at https://www.kaggle.com/datasets/balraj98/deepglobe-road-extraction-dataset
+2. To train the model, you must also download the folder containing the "DeepGlobe Road Extraction Dataset" data. You can find the folder at https://www.kaggle.com/datasets/balraj98/deepglobe-road-extraction-dataset
 ## Usage
 
 ### 1. Data Preprocessing
