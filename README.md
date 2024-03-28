@@ -16,20 +16,17 @@ The repository is structured as follows:
 
 - **`data/`**: Contains the metadata, dataset splits, and other data-related files.
 - **`models/`**: Stores trained segmentation models and related files.
-- **`notebooks/`**: Jupyter notebooks for data exploration, model training, and evaluation.
-- **`src/`**: Source code for data preprocessing, model training, inference, and evaluation.
-- **`utils/`**: Utility functions and scripts used across the project.
 
 ## Getting Started
 
 ### Installation
 
-1. Clone this repository to your local machine:
+1. Clone this repository to your local machine or save the zipped folder:
 
    ```bash
    git clone https://github.com/your-username/DeepLab_Road_Detection.git
 
-
+2. Tp train the model you also need to download the folder containing the data named "DeepGlobe Road Extraction Dataset". You can find the folder at https://www.kaggle.com/datasets/balraj98/deepglobe-road-extraction-dataset
 ## Usage
 
 ### 1. Data Preprocessing
