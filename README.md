@@ -10,6 +10,12 @@ This repository contains code for a satellite image segmentation project (https:
 
 Satellite image segmentation is a computer vision task that involves partitioning an image into multiple segments or regions to simplify its representation. In this project, we focus on segmenting satellite images to identify road areas, which is crucial for various applications such as urban planning, transportation management, and infrastructure development.
 
+## How is this different from the Kaggle post?
+
+Although the code in many parts is inspired (copied) from the Kaggle post by BALRAJ ASHWATH, it differs in scope and scalability. What I am trying to do here is to train the model to be able to model other formats of satellite imagery and, to be specific, TIF. 
+
+## How is the TIF file prepared to test the model?
+The TIF samples are coming from [EarthExplorer.gov](https://earthexplorer.usgs.gov/)
 
 ## Getting Started
 
