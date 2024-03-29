@@ -29,9 +29,9 @@ The TIF samples are coming from [EarthExplorer.gov](https://earthexplorer.usgs.g
 2. To train the model, you must also download the folder containing the "DeepGlobe Road Extraction Dataset" data. You can find the folder at https://www.kaggle.com/datasets/balraj98/deepglobe-road-extraction-dataset
 ## Usage
 
-### 1. Data Preprocessing
+3. Preprocessing the satellite imagery data is essential before training the model. The downloaded folder contains the needed training pictures. However, detecting roads on your custom pictures involves tasks such as downloading, transforming, loading the data, applying necessary transformations, and organizing it into a format suitable for the model that will be applied.
 
-Before training the model, it's essential to preprocess the satellite imagery data. This involves tasks such as loading the data, applying necessary transformations, and organizing it into a format suitable for model training.
+### 1. Data Preprocessing
 
 #### Steps:
 
