@@ -18,7 +18,7 @@ Although the code in many parts is inspired (copied) from the Kaggle post by BAL
 ## How is the TIF file prepared to test the model?
 The TIF samples are coming from [EarthExplorer.gov](https://earthexplorer.usgs.gov/)
 
-###Major steps to prepare the target and customized TIF: 
+### Major steps to prepare the target and customized TIF: 
 
 Download satellite imagery from EarthExplorer.usgs.gov --> Split the Raster 
 
