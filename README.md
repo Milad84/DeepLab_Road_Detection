@@ -28,7 +28,8 @@ Download satellite imagery from EarthExplorer.usgs.gov --> Split the Raster --> 
 
 The above process will give you a starting point for editing the width of the roads. The picture on the left is before aggregation, and the picture on the right is after aggregation:
 
-![image](https://github.com/Milad84/DeepLab_Road_Detection/assets/38597478/cc02a5af-ec24-44e9-93c7-0ac78b298212)
+![image](https://github.com/Milad84/DeepLab_Road_Detection/assets/38597478/597100b6-8b5a-4730-b9e4-952c4d695eb4)
+
 ![image](https://github.com/Milad84/DeepLab_Road_Detection/assets/38597478/1951afca-eab9-4f55-997a-3cc52d665536)
 
 
