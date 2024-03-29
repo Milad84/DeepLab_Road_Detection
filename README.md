@@ -4,6 +4,10 @@
 
 ![OpenCV](https://img.shields.io/badge/OpenCV-4.5.3.56-blue.svg) ![NumPy](https://img.shields.io/badge/NumPy-1.21.2-blue.svg) ![Pandas](https://img.shields.io/badge/Pandas-1.3.3-blue.svg) ![TQDM](https://img.shields.io/badge/TQDM-4.62.3-blue.svg) ![Seaborn](https://img.shields.io/badge/Seaborn-0.11.2-blue.svg) ![Matplotlib](https://img.shields.io/badge/Matplotlib-3.4.3-blue.svg) ![Segmentation Models PyTorch](https://img.shields.io/badge/Segmentation_Models_PyTorch-0.2.0-blue.svg) ![Torch](https://img.shields.io/badge/Torch-1.9.0-blue.svg) ![Albumentations](https://img.shields.io/badge/Albumentations-1.0.3-blue.svg) ![GDAL](https://img.shields.io/badge/GDAL-3.3.3-blue.svg) 
 
+![image](https://github.com/Milad84/DeepLab_Road_Detection/assets/38597478/e7daa473-d92a-4230-ac1b-ff631daf50a1)
+
+
+
 This repository contains code for a satellite image segmentation project (https://www.kaggle.com/code/balraj98/road-extraction-from-satellite-images-deeplabv3) aimed at identifying road areas using deep learning techniques. The project involves training a segmentation model on satellite imagery data and making predictions on new satellite images.
 
 ## Overview
