@@ -1,3 +1,6 @@
+# You will use this code if you need to save the output somewhere on your system. 
+#If saving the output is not a concern and you are just tuning your model, use Step_2.
+
 import os
 import cv2
 import numpy as np
