@@ -22,9 +22,13 @@ Although the code in many parts is inspired (copied) from the Kaggle post by BAL
 ## How is the TIF file prepared to test the model?
 The TIF samples are coming from [EarthExplorer.gov](https://earthexplorer.usgs.gov/)
 
-### Major steps to prepare the target and customized TIF: 
+### Major steps to prepare the target TIF and apply the model to it: 
 
-Download satellite imagery from EarthExplorer.usgs.gov --> Split the Raster --> Use the model saved in the directory and inject your TIF --> Assign the coordinate system --> Save the output --> Convert to binary raster (0 and other value) where one value stands for the road, and the other value must be deleted.
+Download satellite imagery from EarthExplorer.usgs.gov --> Split the Raster --> Use the model saved in the directory and inject your TIF --> Assign the coordinate system --> Save the output --> Convert to binary raster (0 and other value) where one value stands for the road, and the other value must be deleted --> Extract the needed value (Extract by Attribute) --> Vectorize the output --> Aggregate polygons (vectorized polygons).
+
+The above process will give you a starting point to edit the width of the roads:
+![image](https://github.com/Milad84/DeepLab_Road_Detection/assets/38597478/1951afca-eab9-4f55-997a-3cc52d665536)
+
 
 ## Getting Started
 
