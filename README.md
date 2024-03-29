@@ -24,7 +24,7 @@ The TIF samples are coming from [EarthExplorer.gov](https://earthexplorer.usgs.g
 
 ### Major steps to prepare the target and customized TIF: 
 
-Download satellite imagery from EarthExplorer.usgs.gov --> Split the Raster 
+Download satellite imagery from EarthExplorer.usgs.gov --> Split the Raster --> Use the model saved in the directory and inject your TIF --> Assign the coordinate system --> Save the output --> Convert to binary raster (0 and other value) where one value stands for the road, and the other value must be deleted.
 
 ## Getting Started
 
