@@ -26,16 +26,6 @@ The TIF samples are coming from [EarthExplorer.gov](https://earthexplorer.usgs.g
 
 Download satellite imagery from EarthExplorer.usgs.gov --> Split the Raster --> Use the model saved in the directory and inject your TIF --> Assign the coordinate system --> Save the output --> Convert to binary raster (0 and other value) where one value stands for the road, and the other value must be deleted --> Extract the needed value (Extract by Attribute) --> Vectorize the output --> Aggregate polygons (vectorized polygons).
 
-1. Download Satellite Imagery --> 2. Split Raster --> 3. Model Injection --> 4. Assign Coordinate System
-   |                                     |                     |                      |
-   v                                     v                     v                      v
-5. Save Output ----------------> 6. Convert to Binary Raster --> 7. Extract Needed Value
-                                            |
-                                            v
-                                   8. Vectorize Output
-                                            |
-                                            v
-                                   9. Aggregate Polygons
 
 
 The above process will give you a starting point for editing the width of the roads. The animated picture shows the difference before and after aggregation. Notice how the noise yields unwanted polygons:
