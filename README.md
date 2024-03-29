@@ -26,9 +26,10 @@ The TIF samples are coming from [EarthExplorer.gov](https://earthexplorer.usgs.g
 
 Download satellite imagery from EarthExplorer.usgs.gov --> Split the Raster --> Use the model saved in the directory and inject your TIF --> Assign the coordinate system --> Save the output --> Convert to binary raster (0 and other value) where one value stands for the road, and the other value must be deleted --> Extract the needed value (Extract by Attribute) --> Vectorize the output --> Aggregate polygons (vectorized polygons).
 
-The above process will give you a starting point for editing the width of the roads. The picture on the left is before aggregation, and the picture on the right is after aggregation:
+The above process will give you a starting point for editing the width of the roads. The animated picture shows the difference before and after aggregation:
 
-![image](https://github.com/Milad84/DeepLab_Road_Detection/assets/38597478/597100b6-8b5a-4730-b9e4-952c4d695eb4) ![image](https://github.com/Milad84/DeepLab_Road_Detection/assets/38597478/1951afca-eab9-4f55-997a-3cc52d665536)
+![3](https://github.com/Milad84/DeepLab_Road_Detection/assets/38597478/9b75031b-9ef7-412e-b97b-ec606d3ed2b6)
+
 
 
 
