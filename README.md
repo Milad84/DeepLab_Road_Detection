@@ -14,8 +14,13 @@ Satellite image segmentation is a computer vision task that involves partitionin
 
 Although the code in many parts is inspired (copied) from the Kaggle post by BALRAJ ASHWATH, it differs in scope and scalability. What I am trying to do here is to train the model to be able to model other formats of satellite imagery and, to be specific, TIF. 
 
+
 ## How is the TIF file prepared to test the model?
 The TIF samples are coming from [EarthExplorer.gov](https://earthexplorer.usgs.gov/)
+
+###Major steps to prepare the target and customized TIF: 
+
+Download satellite imagery from EarthExplorer.usgs.gov --> Split the Raster 
 
 ## Getting Started
 
@@ -35,7 +40,7 @@ The TIF samples are coming from [EarthExplorer.gov](https://earthexplorer.usgs.g
 
 #### Steps:
 
-1. **Import Required Libraries**: Make sure you have the necessary libraries installed. These may include OpenCV, NumPy, Pandas, and Albumentations.
+1. **Import Required Libraries**: Ensure you have installed the necessary libraries. These may include OpenCV, NumPy, Pandas, and Albumentations.
 
 2. **Load Data**: Load the satellite imagery data from the specified directory. This typically involves reading image files and corresponding mask files.
 
